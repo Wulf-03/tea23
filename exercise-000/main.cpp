@@ -11,8 +11,16 @@ int main(int argc, char **argv) {
      * More info at https://fmt.dev/latest/api.html
      */
     fmt::print("Hello, {}!\n", tea::PROJECT_NAME);
+    
 
     /* INSERT YOUR CODE HERE */
+    void changeValueByParameter(int value);
+    void changeValueByPointer(int* ptr);
+
+    int y = 5;
+    fmt::print("{}\n",y);
+    changeValueByParameter(y);
+    fmt::print("{}\n",y);
 
     return 0; /* exit gracefully*/
 }

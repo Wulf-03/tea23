@@ -7,7 +7,7 @@ git status
 git branch -a
 git switch main
 # create a new local branch based on the origin main
-git switch -c solution-000 origin/main
+
 # perform changes
 git add exercise-000
 git commit -m "feat: add exercise number two"
